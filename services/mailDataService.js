@@ -3,7 +3,7 @@ class MailDataService {
 
     constructor() {
         this.sgMail = require('@sendgrid/mail');
-        this.ApiKey = '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'
+        this.ApiKey = '*****'
         this.sgMail.setApiKey(this.ApiKey);
         this.MESSAGE = "CRM mail Service";
         this.fs = require("fs");
